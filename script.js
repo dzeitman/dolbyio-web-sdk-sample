@@ -2,8 +2,8 @@
 // WARNING: It is best practice to use the VoxeetSDK.initializeToken function to initialize the SDK.
 // Please read the documentation at:
 // https://docs.dolby.io/interactivity/docs/initializing
-const consumerKey = "CONSUMER_KEY";
-const consumerSecret = "CONSUMER_SECRET";
+const consumerKey = process.env.CONSUMER_KEY;
+const consumerSecret = process.env.CONSUMER_SECRET;
 
 const logMessage = (message) => {
     console.log(`${new Date().toISOString()} - ${message}`);
