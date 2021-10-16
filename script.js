@@ -3,7 +3,9 @@
 // Please read the documentation at:
 // https://docs.dolby.io/interactivity/docs/initializing
 
-require('dotenv').config();
+ 
+import dotenv from 'dotenv'
+dotenv.config()
 
 const consumerKey = process.env.CONSUMER_KEY;
 const consumerSecret = process.env.CONSUMER_SECRET;
