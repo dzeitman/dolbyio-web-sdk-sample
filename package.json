@@ -1,0 +1,22 @@
+{
+  "name": "dolbyio-web-sdk-sample",
+  "version": "1.0.0",
+  "description": "This sample application for the Dolby.io Web SDK is a more complete version of the [getting started](https://github.com/voxeet/voxeet-sdk-browser-gettingstarted/) project.",
+  "main": "script.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dzeitman/dolbyio-web-sdk-sample.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/dzeitman/dolbyio-web-sdk-sample/issues"
+  },
+  "homepage": "https://github.com/dzeitman/dolbyio-web-sdk-sample#readme",
+  "dependencies": {
+    "dotenv": "^10.0.0"
+  }
+}
